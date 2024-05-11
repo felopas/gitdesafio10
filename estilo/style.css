@@ -35,7 +35,7 @@ body{
     background-color: var(--cor0);
     font-family: var(--fonte_padrao);
 }
-
+ 
 header {
     background-image:  linear-gradient(to bottom, var(--cor3), var( --cor5));
     min-height: 150px;
@@ -92,13 +92,41 @@ main{
     border-radius: 0px 0px 10px 10px;
 }
 
+main p {
+    margin: 15px 0px 5px 10px;
+    text-align: justify;
+    line-height: 1.5em;
+    font-size: 1em;
+}
+
+
+main strong{ 
+    color: var(--cor3);
+}
+
+main a{ 
+    background-color: ;
+    background-color: var(--cor1);
+    padding: 2px 6px;
+    color: var(--cor5);
+    text-decoration: none;
+    font-weight: bold;
+}
+main a:hover{
+    color: purple;
+}
+
 main h1 {
     color: var(--cor5);
     font-family: var(--fonte_android);
 }
 
 main h2 {
+    color: var(--cor4);
     font-family: var(--fonte_android);
+    background-image: linear-gradient(to right, var(--cor1), var(--cor4), transparent);
+    font-size: 1.3em;
+    text-indent: 10px;
 }
 
 main img { 
@@ -108,8 +136,8 @@ main img {
 }
 
 main img.pequena {
-    width: 40%;
-   }
+    max-width: 400px;
+       }
 
 main iframe{
     padding: 40px;
